@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Conn_02x08_Odd_Even_Female
+D Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP MAX7480
+D Switched Cap filter 8th order Butterworth 2K
+$ENDCMP
+#
+$CMP VP2106
+D MOSFET P-CH 50V 130MA SOT-23
+K BSS84CT-ND
+F https://www.onsemi.com/pub/Collateral/BSS84-D.PDF
+$ENDCMP
+#
+#End Doc Library
