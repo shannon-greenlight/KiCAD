@@ -6,6 +6,30 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP LTC1660CGN
+D Quad Micropower 10-bit DAC, Standard, SSOP-16
+K Quad DAC Micropower 10bit 4ch
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1664fa.pdf
+$ENDCMP
+#
+$CMP LTC1664CN
+D Quad Micropower 10-bit DAC, Standard, DIP-16
+K Quad DAC Micropower 10bit 4ch
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1664fa.pdf
+$ENDCMP
+#
+$CMP LTC1664IGN
+D Quad Micropower 10-bit DAC, Industrial, SSOP-16
+K Quad DAC Micropower 10bit 4ch
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1664fa.pdf
+$ENDCMP
+#
+$CMP LTC1664IN
+D Quad Micropower 10-bit DAC, Industrial, DIP-16
+K Quad DAC Micropower 10bit 4ch
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1664fa.pdf
+$ENDCMP
+#
 $CMP MAX7480
 D Switched Cap filter 8th order Butterworth 2K
 $ENDCMP
