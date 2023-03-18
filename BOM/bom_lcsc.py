@@ -42,7 +42,7 @@ out = csv.writer(f, lineterminator='\n', delimiter=',', quotechar='\"', quoting=
 # out.writerow(['Tool:', net.getTool()])
 # out.writerow( ['Generator:', sys.argv[0]] )
 # out.writerow(['Component Count:', len(net.components)])
-out.writerow(['Reference', 'Quantity', 'Value', 'Footprint', 'JLCPCB Part #'])
+out.writerow(['Designator', 'Comment', 'Footprint', 'JLCPCBPart#'])
 
 # Get all of the components in groups of matching parts + values
 # (see ky_generic_netlist_reader.py)
@@ -59,7 +59,7 @@ for group in grouped:
         c = component
 
     # Fill in the component groups common data
-    out.writerow([refs, len(group), c.getValue(), c.getFootprint(),
+    out.writerow([refs, c.getValue(), c.getFootprint(),
         c.getLCSC()])
 
 
