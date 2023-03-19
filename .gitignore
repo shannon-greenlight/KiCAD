@@ -3,6 +3,6 @@ SamacSys*
 *.bck
 digikey*
 templates/eurorack/OLED12HP/
-greenface-symbols.bak
+greenface-symbols.*
 *.pyc
-greenface-symbols.bak
+3dmodels
