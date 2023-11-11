@@ -5,4 +5,4 @@ digikey*
 templates/eurorack/OLED12HP/
 greenface-symbols.*
 *.pyc
-3dmodels
+# 3dmodels
