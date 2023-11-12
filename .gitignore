@@ -1,5 +1,6 @@
 newlib
 SamacSys*
+*.bak
 *.bck
 digikey*
 templates/eurorack/OLED12HP/
