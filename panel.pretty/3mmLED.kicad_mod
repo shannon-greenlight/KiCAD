@@ -1,6 +1,6 @@
 (footprint "3mmLED" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62002A44)
+  (tedit 65A60144)
   (descr "Mounting Hole 3.2mm, no annular, M3, DIN965")
   (tags "mounting hole 3.2mm no annular m3 din965")
   (attr exclude_from_pos_files exclude_from_bom)
@@ -20,4 +20,9 @@
   (fp_circle (center 0 0) (end 0.223607 0) (layer "Dwgs.User") (width 0.12) (fill none) (tstamp c4ec4bb9-b2bb-4e84-82c2-6152508863a9))
   (fp_circle (center 1.27 0) (end 4.07 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp 343138f6-c4cc-40a8-aef4-c0264aff787d))
   (pad "" np_thru_hole circle (at 1.27 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask) (tstamp 5d3afcd3-f6ea-4d0e-9488-d831089a0195))
+  (model "C:/Users/shann/Dropbox/KiCAD/3dmodels/LED_THT.3dshapes/LED_D3.0mm.step"
+    (offset (xyz 0 0 -5.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

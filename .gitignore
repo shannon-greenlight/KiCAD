@@ -7,3 +7,7 @@ templates/eurorack/OLED12HP/
 greenface-symbols.*
 *.pyc
 # 3dmodels
+AudioJacks*
+greenface-symbols.bak
+3d_Models/.gitattributes
+SparkFun-Switch.pretty
