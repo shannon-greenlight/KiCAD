@@ -422,6 +422,9 @@ class comp():
     def getDigiKey(self):
         return self.getField("Digi-Key Part")
 
+    def getOther(self):
+        return self.getField("Other")
+
 
 class netlist():
     """ Kicad generic netlist class. Generally loaded from a kicad generic
@@ -655,6 +658,41 @@ class netlist():
         for c in self.components:
             include = False
             if len(c.getLCSC()) > 0:
+                include = True
+                
+            if include:
+                # This is a fairly personal way to flag DNS (Do Not Stuff).  NU for
+                # me means Normally Uninstalled.  You can 'or in' another expression here.
+                if c.getField( "Installed" ) == 'NU':
+                    include = False
+
+            if include:
+                ret.append(c)
+
+        # The key to sort the components in the BOM
+        # This sorts using a natural sorting order (e.g. 100 after 99), and if it wasn't used
+        # the normal sort would place 100 before 99 since it only would look at the first digit.
+        def sortKey( str ):
+            return [ int(t) if t.isdigit() else t.lower()
+                    for t in re.split( pattern, str ) ]
+
+        ret.sort(key=lambda g: sortKey(g.getRef()))
+
+        return ret
+
+    def getOtherComponents(self):
+        """Return a subset of all components to be purchased from Other.
+        Omit those that should not, by virtue of the fact that they don't contain an Other field entry:
+        """
+
+        # the subset of components to return, considered as "interesting".
+        ret = []
+
+        # run each component thru a series of tests, if it passes all, then add it
+        # to the interesting list 'ret'.
+        for c in self.components:
+            include = False
+            if len(c.getOther()) > 0:
                 include = True
                 
             if include:
