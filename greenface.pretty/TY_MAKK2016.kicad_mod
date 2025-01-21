@@ -1,0 +1,201 @@
+(footprint "TY_MAKK2016"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor, Murata, DFE201610P, 2.0x1.6x1.0mm, https://www.murata.com/~/media/webrenewal/products/inductor/chip/tokoproducts/wirewoundmetalalloychiptype/m_dfe201610p.ashx")
+	(tags "Inductor power chip flatwire")
+	(property "Reference" "REF**"
+		(at 0 -1.8 0)
+		(layer "F.SilkS")
+		(uuid "4c08a6b9-855d-4fc9-b766-8b84b40fe851")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TY_MAKK2016"
+		(at 0 1.8 0)
+		(layer "F.Fab")
+		(uuid "d4ea08ff-9fca-4afb-bf5d-d13e40089439")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "554309aa-c494-4130-8454-23859d425635")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1947298d-d32d-416c-9b20-d73907d69fc8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d191499-5529-47f8-877d-a39f7fae5141")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.26 -1.06)
+		(end 1.26 -1.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dfbc7d4c-c75d-4d95-9955-b22074bfc026")
+	)
+	(fp_line
+		(start -1.26 1.06)
+		(end 1.26 1.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0826d6f6-9a5f-4fee-9ccd-642bcb120239")
+	)
+	(fp_line
+		(start -1.25 -1.05)
+		(end -1.25 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a7d508bd-c821-4565-8dca-60abcfe9d04e")
+	)
+	(fp_line
+		(start -1.25 1.05)
+		(end 1.25 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "80bae153-4988-4bca-8335-aef65e03f657")
+	)
+	(fp_line
+		(start 1.25 -1.05)
+		(end -1.25 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d2f4f917-9907-41ef-9b66-57315a4fcf1f")
+	)
+	(fp_line
+		(start 1.25 1.05)
+		(end 1.25 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7be6a89f-79c2-4c10-b6da-1a1efe0e27b1")
+	)
+	(fp_line
+		(start -1 -0.8)
+		(end -1 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12cb52a7-c694-4da3-9615-9d190f219a5f")
+	)
+	(fp_line
+		(start -1 0.8)
+		(end 1 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "79eeabbe-eade-40e4-b3bd-433730b881c6")
+	)
+	(fp_line
+		(start 1 -0.8)
+		(end -1 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "86f754d8-be07-4676-ab1a-7d6e97aa7f2b")
+	)
+	(fp_line
+		(start 1 0.8)
+		(end 1 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aee6d197-38ed-459b-a4ab-6d668b2b711f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "f34630ae-d89c-4887-bc95-bf975e414a75")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.75 0)
+		(size 0.7 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8371219c-5007-40ff-a66d-8ada5d08ee07")
+	)
+	(pad "2" smd rect
+		(at 0.75 0)
+		(size 0.7 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "44ac6d06-4d97-4142-af44-48cd0a941f76")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0805_2012Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

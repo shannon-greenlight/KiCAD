@@ -1,0 +1,245 @@
+(footprint "4mmLED_SeeThru"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 3.2mm, no annular, M3, DIN965")
+	(tags "mounting hole 3.2mm no annular m3 din965")
+	(property "Reference" "REF**"
+		(at 0 -3.8 0)
+		(layer "F.SilkS")
+		(uuid "e903ac56-64b5-44a4-95ed-1e68017e762d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "4mmLED_SeeThru"
+		(at 0 3.8 0)
+		(layer "F.Fab")
+		(uuid "ccdec464-bda3-4c6d-8a0a-22799edfb16c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9abf9e2-1ede-4d4f-8c6a-e4f8fb17073e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a05838a-1e04-4b9f-99db-58eb5cf06ad8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c903034a-c95c-4c72-8d1f-b6f0d2ff9340")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -0.852737 -1.325593)
+		(end -0.855592 1.302664)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3578936e-3623-4f33-b950-fdb1f2fe6727")
+	)
+	(fp_line
+		(start -0.075593 1.992737)
+		(end 2.562664 1.995592)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "28639b71-8c6a-4598-8083-4baf43a50188")
+	)
+	(fp_line
+		(start -0.062664 -2.105592)
+		(end 2.562664 -2.105592)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4e9b8af0-a55c-42c0-9e26-840d63cd2e8d")
+	)
+	(fp_line
+		(start 3.352737 -1.312664)
+		(end 3.352737 1.315593)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dbd4a405-cf0f-4064-be6c-a189218cd57f")
+	)
+	(fp_arc
+		(start -0.852737 -1.425593)
+		(mid -0.65 -1.91)
+		(end -0.162664 -2.105592)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b88e0480-3917-4d7b-9c6f-20a3093168f5")
+	)
+	(fp_arc
+		(start -0.175593 1.992737)
+		(mid -0.66 1.79)
+		(end -0.855592 1.302664)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4818be2d-65c2-4aaa-92df-9d1151a466bc")
+	)
+	(fp_arc
+		(start 2.662664 -2.105592)
+		(mid 3.15 -1.91)
+		(end 3.352737 -1.425593)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c73b7785-a6d1-4dbd-b3de-762e83b5bf55")
+	)
+	(fp_arc
+		(start 3.352737 1.315593)
+		(mid 3.15 1.8)
+		(end 2.662664 1.995592)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "75b7937c-8c40-48fa-8c64-159e2325cde2")
+	)
+	(fp_rect
+		(start -0.63 -1.88)
+		(end 3.13 1.88)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "e011a2ea-45aa-4390-be2c-7ddeaecbcf0b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.223607 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "c4ec4bb9-b2bb-4e84-82c2-6152508863a9")
+	)
+	(fp_circle
+		(center 2.54 0)
+		(end 2.763607 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "2e13456e-6662-4b7d-8138-b6b6d5bcf592")
+	)
+	(fp_circle
+		(center 1.27 0)
+		(end 4.07 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "343138f6-c4cc-40a8-aef4-c0264aff787d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.3 0 0)
+		(layer "F.Fab")
+		(uuid "a3f46c51-feaf-43f0-83c2-bc4a5f250dba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "*.Cu" "F.Adhes" "F.Paste")
+		(uuid "6fb29b39-d38b-4fe4-9627-ba1d524fd9c7")
+		(hatch edge 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy 3.25 2) (xy -0.75 2) (xy -0.75 -2) (xy 3.25 -2)
+			)
+		)
+	)
+	(model "C:/Users/shann/Dropbox/KiCAD/3dmodels/LED_THT.3dshapes/LED_D3.0mm.step"
+		(offset
+			(xyz 0 0 -10)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

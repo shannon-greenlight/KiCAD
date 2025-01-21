@@ -1,0 +1,116 @@
+(footprint "USB_C_Slot"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 5.5 0)
+		(layer "F.SilkS")
+		(uuid "8361c307-c4b6-4918-91d6-66990397c1bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USB_C_Slot"
+		(at 0 -5.5 0)
+		(layer "F.Fab")
+		(uuid "ed95ab85-c760-45cf-9fe6-9d5c565c9252")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "345b019f-6ff4-4355-934c-3e5dd8b167dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "300c0317-f911-4b01-929d-712be3a389cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "826069d0-45b7-44d6-845b-ca1e23913fff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.125 -4.375)
+		(end 2.125 4.375)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "47138bb5-bebb-42d3-9ace-1afc9fd87296")
+	)
+	(fp_line
+		(start -2.25 -4.25)
+		(end 2.25 -4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0ea5140f-43e5-45c6-b05d-d7b9931e65a2")
+	)
+	(fp_line
+		(start -2.25 4.25)
+		(end -2.25 -4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "85e04fe8-310b-4f16-88ba-68ab9fd5d6be")
+	)
+	(fp_line
+		(start 2.25 -4.25)
+		(end 2.25 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "327e70e1-5286-47e8-b2a9-3b3b788b9852")
+	)
+	(fp_line
+		(start 2.25 4.25)
+		(end -2.25 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7b32710d-4e7f-4c83-87e7-9fdbd9e480ac")
+	)
+)

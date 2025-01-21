@@ -1,4 +1,4 @@
-(footprint "3mmLED"
+(footprint "3mmLED_SeeThru"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "3mmLED"
+	(property "Value" "3mmLED_SeeThru"
 		(at 0 3.8 0)
 		(layer "F.Fab")
 		(uuid "ccdec464-bda3-4c6d-8a0a-22799edfb16c")
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3bcd3b4f-2e9f-4f7c-9ecc-b8474a14a72d")
+		(uuid "f9abf9e2-1ede-4d4f-8c6a-e4f8fb17073e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "67acabcc-6405-4645-a99e-d4789b78c5a9")
+		(uuid "2a05838a-1e04-4b9f-99db-58eb5cf06ad8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,7 +55,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8fa49ea2-e29a-4a98-9f35-44f95edd4c3a")
+		(uuid "c903034a-c95c-4c72-8d1f-b6f0d2ff9340")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -64,6 +64,17 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 1.25 0)
+		(end -0.4 -0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3fec1831-49fe-435d-a6eb-ba520e55f450")
+	)
 	(fp_circle
 		(center 0 0)
 		(end 0.223607 0)
@@ -108,16 +119,37 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole circle
-		(at 1.27 0)
-		(size 3.2 3.2)
-		(drill 3.2)
+	(zone
+		(net 0)
+		(net_name "")
 		(layers "*.Cu" "*.Mask")
-		(uuid "5d3afcd3-f6ea-4d0e-9488-d831089a0195")
+		(uuid "6fb29b39-d38b-4fe4-9627-ba1d524fd9c7")
+		(hatch edge 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy 2.85 1.6) (xy -0.35 1.6) (xy -0.35 -1.6) (xy 2.85 -1.6)
+			)
+		)
 	)
 	(model "C:/Users/shann/Dropbox/KiCAD/3dmodels/LED_THT.3dshapes/LED_D3.0mm.step"
 		(offset
-			(xyz 0 0 -5.5)
+			(xyz 0 0 -10)
 		)
 		(scale
 			(xyz 1 1 1)

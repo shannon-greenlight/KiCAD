@@ -15,3 +15,8 @@ BOM/backit.bat
 BOM/changes.bat
 BOM/checkin_comment.txt
 BOM/config.csv
+
+backit.bat
+config.csv
+changes.bat
+checkin_comment.txt
