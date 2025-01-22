@@ -20,7 +20,7 @@
   (pad "4" thru_hole circle (at 2.27 -1.5) (size 2.25 2.25) (drill 1.5) (layers *.Cu *.Mask) (tstamp ad7bb497-cd5e-45b8-bae4-b18b78bbbd1b))
   (pad "5" thru_hole oval (at 3.41 2.55) (size 2.6 1.6) (drill oval 2.6 1.6) (layers *.Cu *.Mask) (tstamp 15141ed1-0fc3-47ba-8bcc-dfc5f1deb7c2))
   (pad "6" thru_hole circle (at -3.27 2.55) (size 1.6 1.6) (drill 1.6) (layers *.Cu *.Mask) (tstamp eb64160b-3239-4d41-95c0-d36697559137))
-  (model "C:/Users/shann/Dropbox/KiCAD/greenface.3dshapes/472570001.stp"
+  (model "${GREENFACE_KICAD_DIR}/greenface.3dshapes/472570001.stp"
     (offset (xyz 0 0.75 5.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 -180))

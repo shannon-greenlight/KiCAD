@@ -162,7 +162,7 @@
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "ed373e9a-4d69-48e3-9e6f-2312c63f86e5")
 	)
-	(model "C:/Users/shann/Dropbox/KiCAD/3d_Models/Micro_T18_Knob.step"
+	(model "${GREENFACE_KICAD_DIR}/greenface.3dshapes/Micro_T18_Knob.step"
 		(offset
 			(xyz 5.5 0 -4)
 		)

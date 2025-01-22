@@ -262,7 +262,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "4c71738a-21de-4885-b706-bc44e9a8bbfa")
 	)
-	(model "C:/Users/shann/Dropbox/KiCAD/greenface.3dshapes/TC-33X-1.stp"
+	(model "${GREENFACE_KICAD_DIR}/greenface.3dshapes/TC-33X-1.stp"
 		(offset
 			(xyz -1.75 0 0)
 		)

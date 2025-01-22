@@ -26,7 +26,7 @@
   (fp_line (start 1 -7.35) (end 1 2.35) (layer "F.Fab") (width 0.1) (tstamp f604df6f-bc4f-4eac-98ac-54167d4ac1be))
   (fp_circle (center 7 -2.5) (end 10 -2.5) (layer "F.Fab") (width 0.1) (fill none) (tstamp 37e33cb9-fc1d-462f-9025-d23bdebfdae8))
   (pad "" np_thru_hole circle (at 7 -2.5) (size 6.4 6.4) (drill 6.4) (layers F&B.Cu *.Mask) (tstamp 686e6eba-1c8d-435f-945c-2509ff59a806))
-  (model "C:/Users/shann/Dropbox/KiCAD/3d_Models/Micro_T18_Knob.step"
+  (model "${GREENFACE_KICAD_DIR}/greenface.3dshapes/Micro_T18_Knob.step"
     (offset (xyz 7.5 3 -3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 45))

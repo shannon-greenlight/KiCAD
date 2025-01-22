@@ -53,7 +53,7 @@
   (fp_circle (center 0 0) (end 8.05 0) (layer "F.CrtYd") (width 0.12) (fill none) (tstamp 71a830ca-5f51-4b1c-9b2c-ec940649bea1))
   (pad "" np_thru_hole circle (at 0 0) (size 9.3 9.3) (drill 9.3) (layers F&B.Cu *.Mask) (tstamp a2272d7a-963e-4324-822a-fa06267e4a1d))
   (pad "" np_thru_hole circle (at 0 7.5) (size 2.5 2.5) (drill 2.5) (layers F&B.Cu *.Mask) (tstamp f2531076-c5d0-47a1-9612-9b0b85875bf1))
-  (model "C:/Users/shann/Dropbox/KiCAD/3d_Models/Sifam_Knob_Small_Unskirted.step"
+  (model "${GREENFACE_KICAD_DIR}/greenface.3dshapes/Sifam_Knob_Small_Unskirted.step"
     (offset (xyz 0 0 -5.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 22.5))

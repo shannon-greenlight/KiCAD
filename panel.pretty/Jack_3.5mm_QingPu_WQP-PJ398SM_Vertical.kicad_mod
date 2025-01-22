@@ -25,12 +25,12 @@
   (fp_line (start -4.5 -5.98) (end -4.5 4.42) (layer "F.Fab") (width 0.1) (tstamp 5cf3b895-c8ad-4f30-8ad0-31bc69d09f3e))
   (fp_line (start -4.5 4.47) (end 4.5 4.47) (layer "F.Fab") (width 0.1) (tstamp e110700c-f29d-49a9-ad59-0973116a0f71))
   (pad "1" thru_hole circle (at 0 0) (size 7.5 7.5) (drill 6.5) (layers *.Cu *.Mask) (tstamp 2ada759e-fe97-4261-8aa1-9d719ef211cd))
-  (model "C:/Users/shann/Dropbox/KiCAD/3d_Models/PJ301M-12 Thonkiconn v0.2.step"
+  (model "${GREENFACE_KICAD_DIR}/greenface.3dshapes/PJ301M-12 Thonkiconn v0.2.step"
     (offset (xyz 0 0.55 -10.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "C:/Users/shann/Dropbox/KiCAD/AudioJacks.3dshapes/6mm_knurl_nut.step"
+  (model "${GREENFACE_KICAD_DIR}/greenface.3dshapes/6mm_knurl_nut.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

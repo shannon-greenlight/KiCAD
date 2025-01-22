@@ -115,7 +115,7 @@
 		(layers "*.Cu" "*.Mask")
 		(uuid "5d3afcd3-f6ea-4d0e-9488-d831089a0195")
 	)
-	(model "C:/Users/shann/Dropbox/KiCAD/3dmodels/LED_THT.3dshapes/LED_D3.0mm.step"
+	(model "${GREENFACE_KICAD_DIR}/greenface.3dshapes/LED_D3.0mm.step"
 		(offset
 			(xyz 0 0 -5.5)
 		)

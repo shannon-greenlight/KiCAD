@@ -274,9 +274,9 @@
 		(roundrect_rratio 0.25)
 		(uuid "19ae3228-bd52-4aad-ae80-18594ffd2e55")
 	)
-	(model "C:/Users/shann/Dropbox/KiCAD/AudioJacks.3dshapes/PJ398SM.step"
+	(model "${GREENFACE_KICAD_DIR}/greenface.3dshapes/PJ398SM.step"
 		(offset
-			(xyz 0 0.05 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

@@ -231,7 +231,7 @@
 			)
 		)
 	)
-	(model "C:/Users/shann/Dropbox/KiCAD/3dmodels/LED_THT.3dshapes/LED_D3.0mm.step"
+	(model "${GREENFACE_KICAD_DIR}/greenface.3dshapes/LED_D3.0mm.step"
 		(offset
 			(xyz 0 0 -10)
 		)

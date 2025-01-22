@@ -286,7 +286,7 @@
 		(remove_unused_layers no)
 		(uuid "5cf1d93f-1300-485a-8bfa-8d45fb91a1ef")
 	)
-	(model "C:/Users/shann/Dropbox/KiCAD/greenface.3dshapes/Amphenol_Jack.stp"
+	(model "${GREENFACE_KICAD_DIR}/greenface.3dshapes/Amphenol_Jack.stp"
 		(offset
 			(xyz -4 5.575 7)
 		)

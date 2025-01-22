@@ -272,7 +272,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "77789d4b-14e8-4286-9356-b65a4e77d79a")
 	)
-	(model "C:/Users/shann/Dropbox/KiCAD/3dmodels/Package_DFN_QFN.3dshapes/DFN-8_2x2mm_P0.5mm.wrl"
+	(model "${GREENFACE_KICAD_DIR}/greenface.3dshapes/DFN-8_2x2mm_P0.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

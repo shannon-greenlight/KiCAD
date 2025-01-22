@@ -37,7 +37,7 @@
   (pad "1" smd rect (at 1.25 -1.45) (size 1.3 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp cb6a4c46-8898-4e0a-816e-9ab1b22acedc))
   (pad "2" smd rect (at 0 1.45) (size 2 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 400ebfad-0866-4aca-b877-3bdac2e12220))
   (pad "3" smd rect (at -1.25 -1.45) (size 1.3 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f5aa38a4-be49-413d-80cf-44751dcf315d))
-  (model "C:/Users/shann/Dropbox/KiCAD/greenface.3dshapes/3224W.stp"
+  (model "${GREENFACE_KICAD_DIR}/greenface.3dshapes/3224W.stp"
     (offset (xyz 0.25 2 3))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 180 -180))
