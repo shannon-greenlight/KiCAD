@@ -1,8 +1,7 @@
-newlib
 SamacSys*
 *.bak
 *.bck
-digikey*
+#digikey*
 templates/eurorack/OLED12HP/
 # greenface-symbols.*
 *.pyc
@@ -11,10 +10,6 @@ AudioJacks*
 greenface-symbols.bak
 3d_Models/.gitattributes
 SparkFun-Switch.pretty
-BOM/backit.bat
-BOM/changes.bat
-BOM/checkin_comment.txt
-BOM/config.csv
 
 backit.bat
 config.csv
