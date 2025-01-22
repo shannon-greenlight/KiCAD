@@ -4,7 +4,7 @@ SamacSys*
 *.bck
 digikey*
 templates/eurorack/OLED12HP/
-greenface-symbols.*
+# greenface-symbols.*
 *.pyc
 # 3dmodels
 AudioJacks*

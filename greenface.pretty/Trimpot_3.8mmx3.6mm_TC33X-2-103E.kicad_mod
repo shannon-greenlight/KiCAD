@@ -1,0 +1,276 @@
+(footprint "Trimpot_3.8mmx3.6mm_TC33X-2-103E"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "http://www.bourns.com/docs/Product-Datasheets/TC33.pdf")
+	(property "Reference" "REF**"
+		(at -3.64 0.1 90)
+		(layer "F.SilkS")
+		(uuid "0f2af953-ed16-4e87-9102-22f452e1b227")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Trimpot_3.8mmx3.6mm_TC33X-2-103E"
+		(at 3.55 0.1 90)
+		(layer "F.Fab")
+		(uuid "317237ab-088a-4806-88ac-2b574ad8fa33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.1 0.1 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4ba0d6d-d904-4cd5-b261-f1729cce29a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.1 0.1 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b6f2418-122e-4819-9b45-013c7406f603")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.1 0.1 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7440522f-1442-4f63-9fe0-71dc473dbc0f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.1 -1.8)
+		(end -2.1 -1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92665985-c5e2-4f04-b2d0-b6e0338f3523")
+	)
+	(fp_line
+		(start -2.1 -1.8)
+		(end -1.85 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce18251a-7a75-4c7d-8126-7723b1b33b17")
+	)
+	(fp_line
+		(start -2.1 2)
+		(end -2.1 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f011c5f1-fc14-433f-9ed9-e996100b01ee")
+	)
+	(fp_line
+		(start -2.1 2)
+		(end -1.85 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "360b8530-6602-4183-87a6-2715d1f94412")
+	)
+	(fp_line
+		(start 1.65 2)
+		(end 1.9 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b583592-a43c-4a76-83cf-3ce5326a4aa6")
+	)
+	(fp_line
+		(start 1.9 -1.8)
+		(end 1.65 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17f903bf-e324-4732-aad0-ce0f7a869c17")
+	)
+	(fp_line
+		(start 1.9 -1.8)
+		(end 1.9 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d48e1418-6130-4e87-ac95-c0b94ccf6ffa")
+	)
+	(fp_line
+		(start 1.9 1.8)
+		(end 2.25 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cd611806-79b3-4f36-94e6-d138f36e87ca")
+	)
+	(fp_line
+		(start 1.9 2)
+		(end 1.9 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f36a1d5-6d22-4eb3-889b-85b19eec6ba0")
+	)
+	(fp_line
+		(start -2.55 -1.95)
+		(end -2.55 2.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "34b2a281-3857-4c79-9f6e-13c54ec5fa84")
+	)
+	(fp_line
+		(start -2.55 2.15)
+		(end 2.55 2.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "71fb4ddc-bbd2-4cbf-9cc5-2a8c5bbc8663")
+	)
+	(fp_line
+		(start 2.55 -1.95)
+		(end -2.55 -1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8028eee7-295c-4231-b0b0-571036b62431")
+	)
+	(fp_line
+		(start 2.55 -1.95)
+		(end 2.55 2.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "895812cb-b26d-457d-b8e8-b9477cf407b2")
+	)
+	(fp_line
+		(start -2 1.9)
+		(end -2 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4c582fde-52a4-487a-8664-f0fd13b31c53")
+	)
+	(fp_line
+		(start -2 1.9)
+		(end 1.8 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6361d6f8-f4e1-4431-809d-ffdbc21c0a2c")
+	)
+	(fp_line
+		(start 1.8 -1.7)
+		(end -2 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "baa458c1-0fa0-4234-96dc-545851964cd1")
+	)
+	(fp_line
+		(start 1.8 1.9)
+		(end 1.8 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36c75fc0-7e5f-4e6d-b44f-abc3896cd506")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.1 0.1 90)
+		(layer "F.Fab")
+		(uuid "273441cf-2b98-4453-9a7f-10a1a69bf4ff")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.7 1.1 90)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c1799928-15ee-42d6-b118-d7d105393ae6")
+	)
+	(pad "2" smd rect
+		(at -1.55 0.1 90)
+		(size 1.6 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "551fc890-1591-485d-8ab7-1d03802364b7")
+	)
+	(pad "3" smd rect
+		(at 1.7 -0.9 90)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4c71738a-21de-4885-b706-bc44e9a8bbfa")
+	)
+	(model "C:/Users/shann/Dropbox/KiCAD/greenface.3dshapes/TC-33X-1.stp"
+		(offset
+			(xyz -1.75 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
